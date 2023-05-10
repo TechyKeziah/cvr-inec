@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   left: 0; right: 0;
+   background: #fff;
+   
+}
+
+
+header a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+header > nav > ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+ header > .logo-design{
+   display: flex;
+   align-items: center;
+
+
+ }
+
+ .home-section{
+    background: url("3d background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 1rem 5%;
+ }
+ 
+.home-section > .welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap:1rem;
+    padding: 4rem 0;
+}
+.welcome-image{
+     flex: 1 1 65rem;
+}
+.welcome-image img{
+    width: 100%;
+}
+.welcome-details{
+    flex: 1 1 45rem;
+}
+.welcome-details p{
+     color:rgb(61, 59, 59);
+     font-size: x-large;
+     margin: 1rem 0;
+}
+.welcome-details h1{
+    font-size: 2rem;
+}
+
+ 
+
+.primary-cta{
+    background-color: rgb(8, 88, 8);
+    padding: 10px;
+    width: 140px;
+    border-radius: 7px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    display:inline-block;
+    margin-top: 2rem;
+}
+
+
+section > .message {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 120px;
+    align-items: center;
+}
+
+section > .chairman {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+}
+
+.msg{
+    margin-left: 70px;
+    font-size: larger
+}
+.pic-left-column{
+    width: 400px;
+    height: 400px;
+}
+
+.professor{
+    font-weight: bold;
+}
+
+hr {
+    border-top: 2px solid green;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    color: gray;
+    margin-top: 40px;
+   
+}
+.footer-logo-design {
+    display: flex;
+    
+    flex-direction: column;
+
+}
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer > nav > ul{
+list-style: none;
+}
+.inec-logo{
+    width: 15rem;
+    margin-bottom: 15px;
+}
